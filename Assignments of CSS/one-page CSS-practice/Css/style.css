@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.box {
+    position: relative;
+    top: 200px;
+    left: 30%;
+    background-color: rgba(158, 158, 158, 0.747);
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border: 4px solid black;
+    display: flex;
+    justify-content: center;
+
+}
+.bigCircle {
+    position: absolute;
+    top: 50px;
+    background-image: url("../Assets/images/bg-image2.jpg");
+    opacity: .7;
+    background-size: contain;
+    width: 320px;
+    height: 310px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.smlCircle{
+    position: absolute;
+    border-radius: 50%;
+    background-image: url("../Assets/images/Small-image.jpg");
+    background-size: cover;
+    top: 8px;
+    width: 120px;
+    height: 120px;
+
+}
+.Text {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 35%;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 3px 3px 0 #000;
+}
+.Text2{
+    letter-spacing: -2px;
+    font-size: 25px;
+    margin-top: 47%;
+}
+.Text3{
+    font-size: 16px;
+    margin-top: 60%;
+    color: white;
+    position: absolute;
+    text-align: center;
+}

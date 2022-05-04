@@ -1,0 +1,501 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.firstnav {
+  width: 100%;
+  height: 45px;
+  background-color: black;
+  color: rgb(228, 226, 226);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.partition {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin: 4px 13px;
+}
+.partition .navItem {
+  overflow: hidden;
+  padding: 0px 4px;
+  margin: 0 4px;
+}
+.partition .navItem.imgItem {
+  width: 25px;
+  height: 25px;
+}
+.brdrRadius {
+  background-color: rgba(255, 255, 255, 0.233);
+  font-size: 18px;
+  width: 30px;
+  height: 30px;
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.brdrRadius:hover {
+  background-color: rgba(255, 255, 255, 0.158);
+}
+.brdrRadius span {
+  transform: scale(0.7);
+}
+.brdrRadius.smllFnt {
+  font-size: 14px;
+}
+.navItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.button {
+  background-color: rgb(170, 255, 0);
+  border-radius: 5px;
+  padding: 7px;
+  cursor: pointer;
+}
+.secondnav {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 100%;
+  padding: 0 44px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.logoimage img {
+  width: 100px;
+}
+.navRi8Text div {
+  display: inline-block;
+  justify-content: right;
+  margin: 0 5px;
+}
+.navRi8Text div.active {
+  border-bottom-style: solid;
+  border-color: orange;
+  font-weight: 600;
+}
+.bodyimg img {
+  width: 100%;
+  height: 350px;
+}
+.Parentposition {
+  position: relative;
+}
+.absolute {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 70px;
+  color: rgb(255, 255, 255);
+}
+.imgtext1,
+.imgtext2,
+.imgbutton,
+.imagecircles {
+  margin: 15px 0;
+}
+.imgtext1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.imgtext2 {
+  font-size: 17px;
+}
+.imgtext2 p {
+  text-align: center;
+  width: 594px;
+  display: inline-block;
+}
+.imgbutton .button {
+  background-color: rgb(255, 174, 0);
+  width: 135px;
+  font-weight: 600;
+  padding: 10px;
+  border: none;
+}
+.imagecircles {
+  display: inline-block;
+}
+.imagecircles div {
+  border-radius: 50%;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  background-color: rgb(255, 255, 255);
+}
+.Color {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.text {
+  display: inline-block;
+  color: black;
+}
+.text2 {
+  display: inline-block;
+  color: #4d7902;
+}
+.text3 {
+  padding: 10px 25%;
+  font-size: small;
+  font-weight: normal;
+  color: rgb(173 173 173 / 66%);
+}
+.inline {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.inlineimg img {
+  width: 75px;
+}
+.inlineradius {
+  background-color: rgb(219, 219, 219);
+  border-radius: 100%;
+  width: 110px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.smallPic img {
+  width: 50px;
+}
+.largePic img {
+  width: 130px;
+}
+.aboutus {
+  background-color: rgb(233, 233, 233);
+  width: 100%;
+  height: 360px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+.AboutText {
+  display: inline-block;
+  color: black;
+  font-size: 30px;
+}
+.Ustext {
+  display: inline-block;
+  color: #4d7902;
+}
+.aboutlorem {
+  font-size: 14px;
+  font-weight: normal;
+  width: 40%;
+  text-align: left;
+  padding: 20px 50px;
+}
+.aboutbutton {
+  position: absolute;
+  padding-left: 115px;
+}
+.snipPic img {
+  position: absolute;
+  top: 0;
+  left: 52%;
+  pointer-events: none;
+}
+.services {
+  margin-top: 50px;
+}
+.services .boxes {
+  background-color: rgb(219, 219, 219);
+  border-radius: 7px;
+  width: 250px;
+  height: 200px;
+  margin: 10px 0;
+  position: relative;
+}
+.boxes img.star {
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.services .serviceText {
+  margin-top: 45px;
+  text-align: center;
+}
+.services h2 {
+  text-transform: uppercase;
+}
+.serviceText p {
+  margin: 8px 0;
+  font-size: 14px;
+  padding: 0 12px;
+}
+.serviceText a {
+  display: block;
+  margin-top: 18px;
+}
+.lastcontent {
+  background-color: black;
+  width: 100%;
+  height: 350px;
+  margin-top: 30px;
+  padding: 10px 0 0 0;
+  text-align: center;
+}
+.footerText {
+  color: white;
+}
+.color .last1 {
+  font-size: 10px;
+}
+.weight {
+  color: white;
+  display: inline-block;
+  padding: 15px 10px;
+}
+.colorchange {
+  color: orange;
+}
+
+.lastboxes {
+  padding: 20px;
+}
+.lastboxes .lbox {
+  width: 200px;
+  height: 150px;
+  display: inline-block;
+  overflow: hidden;
+}
+.diffcolor1 {
+  background-color: rgb(221, 221, 221);
+}
+.diffcolor2 {
+  background-color: rgb(202, 202, 202);
+}
+.diffcolor3 {
+  background-color: rgba(87, 86, 86, 0.753);
+}
+.diffcolor4 {
+  background-color: rgba(126, 126, 126, 0.753);
+}
+.diffcolor5 {
+  background-color: rgb(221, 221, 221);
+}
+.diffcolor1 img {
+  width: 90px;
+}
+.diffcolor2 img {
+  width: 70px;
+}
+.diffcolor3 img {
+  width: 70px;
+}
+.diffcolor4 img {
+  width: 130px;
+}
+.diffcolor5 img {
+  width: 130px;
+  padding-top: 18px;
+}
+
+.lbox img {
+  margin-top: 10px;
+}
+.horsetext {
+  font-size: 25px;
+  font-weight: 600;
+  color: rgb(68, 68, 68);
+}
+.lastTextcolor {
+  color: rgb(209, 209, 209);
+  font-size: 20px;
+}
+/* page02 is going to start now yeah bruh */
+.page2Line {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.pg2Circles {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  position: relative;
+}
+.firstcircles {
+  width: 130px;
+  height: 130px;
+  background-color: white;
+  border: 2px solid rgb(175, 175, 175);
+  border-radius: 50%;
+  z-index: 5;
+  position: relative;
+}
+.smallCircles {
+  background-color: coral;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: -20px;
+  left: 49px;
+}
+.backLine {
+  width: 100%;
+  height: 3px;
+  background-color: rgb(175, 175, 175);
+  position: absolute;
+  top: 50%;
+}
+.belowcircle {
+  display: inline-block;
+}
+.page2first .text3 {
+  color: rgb(177, 177, 177);
+}
+.johntext {
+  font-size: 16px;
+  font-weight: normal;
+  height: 410px;
+}
+.peopletxt,
+.peopletxt2 {
+  display: flex;
+  justify-content: space-between;
+}
+.johnDoe7,
+.johnDoe8 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 30px 50px 0;
+}
+.johnDoe8 {
+  margin: 30px 468px 0;
+}
+.johnDoe2 {
+  margin: 0 50px;
+  color: rgba(43, 43, 43, 0.66);
+  text-align: justify;
+  text-align-last: left;
+}
+.imagecircles div {
+  background-color: rgb(255, 148, 109);
+}
+.inlineform {
+  background-color: #74b72e;
+  width: 100%;
+  height: 300px;
+}
+.formtext {
+  padding-top: 50px;
+  color: white;
+  font-size: 65px;
+  font-weight: 600;
+  text-align: center;
+}
+.inlineform form {
+  display: flex;
+  justify-content: center;
+}
+.inlineform form input {
+  border: none;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+}
+.sendbutton {
+  background-color: rgb(253, 129, 28);
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  margin: 18px;
+  padding: 10px;
+}
+/* Last Banner haye mazay */
+.SecondlastBanner {
+  text-align: center;
+  margin-top: 20px;
+}
+.text3 {
+  color: rgb(238, 238, 238);
+}
+.contacts .text3 {
+  color: rgba(133, 133, 133, 0.66);
+}
+.lastlorem {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.lastlorem img {
+  width: 20px;
+  margin: 0 10px;
+}
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+.lastnos {
+  margin: 25px 0;
+  display: inline-block;
+}
+.lastnos img {
+  width: 30px;
+  margin: 0 10px;
+}
+.map img {
+  width: 100%;
+}
+.lastbanner {
+  background-color: #4d7902;
+  width: 100%;
+  height: 300px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.lastlogo img {
+  width: 170px;
+}
+.copy {
+  color: white;
+  padding: 20px 0;
+}
+.teletext,
+.lastheading,
+.textlist {
+  color: white;
+}
+
+.teletext {
+  font-size: 16px;
+  width: 250px;
+  text-align-last: left;
+  overflow: hidden;
+}
+.lastheading {
+  font-size: 25px;
+  font-weight: 600;
+}
+.textlist {
+  padding: 20px;
+  font-size: 16px;
+  text-decoration: underline;
+}
+.textlist .listpadding {
+  padding: 5px 0;
+}

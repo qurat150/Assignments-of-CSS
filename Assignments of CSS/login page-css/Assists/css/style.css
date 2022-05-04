@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-size: cover;
+  background-image: url("../images/bg1.jpg");
+  width: 100%;
+  height: 100vh;
+}
+.navBar{
+  display: flex;
+  justify-content: space-evenly;
+}
+.navBar .icon-nav{
+  margin-top: 7px;
+  font-size: 35px;
+  color: orange;
+}
+.nav-items{
+  color: white;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.nav-inputFeild input{
+  background: transparent;
+  border: 2px solid orange;
+  padding: 5px;
+  border-radius: 3px;
+}
+.sections{
+  width: 100%;
+  display: inline-block;
+}
+.section-1{
+  margin-top: 150px;
+  position: relative;
+  width: 48%;
+  height: 456px;
+  display: inline-block;
+}
+.section-1 .heading1{
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  font-size: 45px;
+  color: white;
+  font-family: monospace;
+}
+.section-1 .heading2{
+  position: absolute;
+  top: 43%;
+  left: 10%;
+  color: orange;
+
+}
+.section-1 .heading3{
+  position: absolute;
+  top: 56%;
+  left: 10%;
+}
+
+.section-1 .para{
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  color: white;
+}
+.section-1 .button{
+  position: absolute;
+  top: 87%;
+  left: 10%;
+  width: 120px;
+  background-color: orange;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 18px;
+  
+}
+.section-2{
+  width: 48%;
+  background-color: aquamarine;
+  height: 356px;
+  display: inline-block;
+}
+.section-2 .sub-section{
+  width: 80%;
+  background-color: black;
+  height: 244px;
+}
